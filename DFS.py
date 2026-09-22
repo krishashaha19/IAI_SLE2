@@ -37,6 +37,8 @@ def dfs(graph, start, goal):
 
 
 # Profiling
+# py-spy can profile this file externally:
+# py-spy record -- python DFS.py
 runs = 3
 times = []
 nodes = []

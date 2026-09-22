@@ -38,6 +38,8 @@ def bfs(graph, start, goal):
 
 
 # Profiling
+# py-spy can profile this file externally:
+# py-spy record -- python BFS.py
 runs = 3
 times = []
 nodes = []
